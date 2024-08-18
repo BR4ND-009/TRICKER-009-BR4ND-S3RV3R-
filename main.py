@@ -1,6 +1,172 @@
-#ENCODED BY : XM9RTY AYUSH K1NG
-#ENCRYPTION : Py3 MARSHAL+ZLIB+B64
-#GITHUB : https://github.com/XM9RTY AYUSH K1NG
-#----------------------------------------------
-import marshal, base64, zlib
-exec(marshal.loads(zlib.decompress(base64.b64decode(b'eJzNWV1s28aWHooSJZGyLVuW/CfX9PpX/pFlO3H8E7twHCfxJnHS2GmvnfpqGZG2aeuvJB07itTVBQqsF9tdOEWApkWACsUiSJHeRXefet+Se7sXAfY+iAYBCwQMFHeRh74pSC4QGPuwM5QsW7JSNEhvd0Xqm+GZMzNnZs7wnMP5b3DoZ8imzwcwAD4FLGAxP5jPpNg8pqW6eZ2W4vM4THV+fcAwb8AyPMQ8oaXGeaOWmubNWkrOk1pKzVNaapm3/DXa1oGzgMU/AqyeM6+U7A9qpXQ/dx8H4CG+/zRfxho+AvNWloBYrgNc+X1IfZibDNivEZZUsCaINq6SNa/qEF2wQF7bEV5sRvu7yB8QYdqFqYR4U5S4gO/wDGP7M1wJ0AxzAI0cjhqDfeCsDtbHVfPFm+eYIOvnBB92qKoe/pHwz7/VqkZBAhT7sdh9WOthriaGOLGinDoWvw+H9FCXx6srxls43ChYyU1kQl+0dX2hHCyAwzNM//AEPkUsE6GgxAWlbulmmIuQErch9YT9DB8U34LF3d30zOSVdyev0FeuTk9PTZ8dG5sZn50bH6fPTV55z2VQS0QuyHoFTgyHgiKnUtrjMsewnKBSB3lRNawv8n4OJgIvcXBR9CLnXxSRVPRehdfrnZqevjQxOT3bferSHHxUCTbkPTs5G7HmFsGdoVTDKuI1CHGQIkt3SOc26bw7I5ONCtmYJBs1Wu02WXt37MFJmRxUyMEkOZijyqRTIZ1J0gkpH3dkaMk6yDiqkKPJ/fs5mqhpl141eb1BJsBBeUivNxBi1/wob/F6P1hj/JkSoQzyfgUEK0wEpOKCYR+qkKhNmqj7V1qnN46lwVHI1Ee18vSUAFll+x5obwIsBqRDSrSSy7O6KFjUSYdUIF+ljoMYJhkPqQVeXF2iIF9djigxljAUq3dkH2pXoVoj1WsCvUDUr+s28DmwjmFgDtKzSqmf5hNwOlUQaZnhhBucQAtrwSAfXKIZiV6WpPBwT48/5GP8yyFRGr4VcxGqRQz5VjlJ1NhV8+zE5UxNbSpVQ1jgg5JKLIaEACMhbYVlXvjEQRaXTtVfvnRlVjWgplkRyUnT2hqqpdwG51uTOG+mYQFthnq0nP+mLWeqpDzOPqWqFKox0ZeQEh2/5WVqUKEG00BnpL+d3CXLktYTO9axbevYt5JsPa1YT8vkpEJOJsnJFFm2Q9Zvk/Uy2aCQDUmyIW2AtbSqGjxD8ALk0V4JL1++/HEGsRyK/MWJ8Sb8cZN+vM34uAODmKdl5n0t+x/N3hzWMBZjdUc06ZWvsnwtiGHFtSBIvUIH8JiO1cfww1p88HpbyVF/ogZCqxLTswRrZE2smSVZirWwJWzpPVPMEMVOg4V/iBFRIkH8hHEY2bKEsRgfa43iEVC4S2KmqK44f9RYwGmOGqNmtvyeLkZKh0a1YsrVMEXJqOHrinybGaMk2yFuMiePraB9Sx4fleOrLNzXH29qO9A+vWeRQqtcMLgWcEsbkooJkcFznN8fomcY6SbD0CIvNNJTNBOg10S0M2+G1gQ6s0vc9MWbtFab5kX6Vkwt6/V4PMcHevv7B4Z6+z2ePKVDg0HCPW8GR5WuqM3STa8hm1t3rXdkqC/w5/iXf74Tf8P7wJpN0m/e2o/d8S+/woQaKL6AXI4Dc6ESfj7IiWKkWbOdfJCXeMbvDUASs8S5T2rvO3HMneHqRRPmAugdBN8xaQDKZ/BnAFCz+AsN00dQ62mPXOW4cDfj529we+YAs9EN2x71qFjvXuJiKML7/UzPcbeHbr/AB9c2RujxICuEeJYedHvcnhG49AFxDa71WcbPbNykZ4boU2u8n+25dPnKgLv3hGegr9/t6T0xQq/fcNHj4bCfe4+7fp6Xeo73n3D3D9Dt58/NXrzQRfv5VY4+y/lWQy56YlkIBbie46iLfk/fkLu37zh9MXQdegmwv0VG4LO1965qTsmyFPB3MbBt3sdIfCjYs4EonRuF1IB/5INRj3uoiw/AMfasc9fD2SwTDi51dfR0aOWDeyVLET7cRbPcop+RuL0qLth9daaLC2arLwpZvtL19XX3Uii05OfcvlDgK5NKQp8pyPlQf5GSCca3zHUjL0oI+SM1V8NLAvR4uqegO+RbE7juK9wHa5woiRHyKtwl3eNLHDJI4z4fF5YiZZm0ezLoC7FwN+UIF5jg0hoUWjUK3CIncMJeMzJSIjSAsP3wsnuR8XHXQ6FVJFLPjd4Tbk/PrViPqpO8X+lUCwNbEUWvthdVY1aXYIF+RQxBQtYpi1S2zHW3BLpbWLplarjl4nDLDN0SXvr8M/T73dsui6oPhWEDZgHya/qnmoTscFRTmPGtwlZF1bgm+P389X7VyvIicx26SOuMgKw29PpESeDDQi3Sc30YGm1VL/EBTjVB+qKWM4h+qJmuElWv+YeEJrKoWgLikhc67WG0NqpZYoQlTvLyrNCC9s0was+gsQoDKI9DEVQc1lHJMCNAv0xCPqcp55da4FIIcOK9qE8RhST04V9mI1YW24DCZViEOhX9mLbrqLKt0gQuU80K1ZwGmLH5gT5lq/p07JMx2dak2Jo2W9M4pGpFGjxD8ALk0YqBZsiLlJmA4zIW96cJYGuO80+JUoWoUoiGHcKzTXhkok8h+pJEX1qPGdGWP4QmUNOSqmtNtXWkdaDmli5VuZqq70rVD6TsLelyc7kpDSDEl9IOUFkL88YMbLakat76ou7zus/q79VvdqWsAzvW0W3r6Lfsozl5bFq2XlKslzabUlbnjrVp29qUuCBbexVrLyS1H3tkS1ZNwnuzY9def2ch0f9g/lFV0j4l26cU+9Rm+18IUPvWvfpk26hcM6bUjG127SJHfGvmH3s+7tmEV9q2L4dogbN+296H/4d+wPg7bCDfZSGzFuS5RPycLstPibpe163Jkw1/hWw4KPIr6Ff3mv2aD1qK6gocAzxPKv0bSKV/A6kKYtOYQaIOlRqiBXFxjMiT2vBXXmfjG6wzUUw2qeSA4+eTs9D5fE2n2wjdZHO+i8yWsVboJpNmGBlIZYdkxvP7Og22sAVPjIpSUSJCIHczqo9aal5L+lhJVBelXrNOKVuRMBXjY21RrIhDXhYtiRrZSlQSLUXI2qHLbS3uREfLotYo+bWjwOUul6oOcVtyPVYV9FURLT/46CWckeoPSVddXOooxdZosmFRSzaXJ+19GPo8zIU/hb6xDkTNhcFPMVpwMk+W2v9LWfLmMqdhUVNhe1vYx315UtcVcgSHmoBEH3A0A6ErZsur43zFSG0//qljDu6imO1DW9CUSdexdZDZO1Cqf3bVT0fMvlDwRgjFSUIjrBIxnYE+jPaIBIqULjPID0HfiRAxYkLeB8r9/4uDfrk7/qWABloQBWl+XaRN88CynpfoXYQRghe5hYVR0N+hGq25BtoQtCNAkZHQgaATQReCbgRuBD0QZoV+lD0GYQ+jhePoYRD13Z6dzhlmmafPMTw9OjpGF/OPIyNZzmudC5AxCCMZP0OfvcnQFxlNcBj50qFFegLpBsrPahHxrdgw/P+A1jJySmuhN3BtY4E+w8ABsjBsptHg6Ytc0TbWeWk5r6FIH4n6H/f76f35Qg1IbvoKdM8ZQUKxubTM0WEhhGIBt9tNRmquNcIqQZoThJBAh3yaV8yi5lzlwghATjpy9YVxNCsn0TPuh/4/HuAhoA9pBgHGJZzmzwujCE4hmEBwGrHrQquZGHcSPZknN1AwA8MkV6VwBlFM2oaBfrxq2pdatQTXArk1F84iNhKRspEACaPV/TyV2VDaN1kYOYQ57nBAUJJtBLrwLLehUlqlzIMWJQgnEJxHcBHBNIJLqCbGiUgd6SK/TGhQ9QrFFBZh6QWAvgvq96MD6u6MTDUqVCNyw12J2ZS95tO5T+ZuX7tzbcfeum1vle3tir19sx3FCS6NSQMUJ7hegDxaMcjGCYVk6FlbrFvk3QmZohWKRrTWxGnU+a8/+bVsb1HsLZkuW7UiDVCXrS9AHq0YZLssJMMuHTV3q28v3FmI+5/+0oHRU5tj68btkTsj8ZVdmI0kTso2j2LzxFegKEkrnWiSqVaF0kTtetCcqnZ+Yf7c/Bl1j9qpdm1Xu+TqTqW6c7MTSdWlMWmApOp6AfJoxSArVSG5yDJ0Jk7vVti32E/5T/jbq3dWdxxt24422eFSHC65okOp6NhsQUJ0aswaICE6X4A8WjHICnGkjHiDYLDOOJLW1VIju03tD5xy04DSNJAG9jK4XBC2ulN09zekTA9vdaYa2x5QSuOxncbh7cZhufGk0nhyq+t7Z3NiQXH27ziHtp1DsnNEcY5stX1fPbZTPbldPfmIffKrxyG5+l2l+t2tppTn5JO65Hvz8tR8coGVp9hkAwfvrY7d+pZ7Cw/6v5l/UpWsf0euf0epf2er/Wljy7/WJ3velxsXlMaFra4UjDGvQcFtDbuOuqTz/R2nb9vpS9W2PWiUazsf/OqbW4/e+fe/f0Il352Tz80l3/fJ53zPcKyew+DcQoTTXLWI8hDTGn7vcG4t3l6+s7y1nDrIbi0/Re37dpwr286Vn7/93QrHnY67V+WKJqWiKVnRBDNPS23Jyr+VS88rpeeT2v1ytxwGxhg1cgC7iKlnp3Jgu3Lgmw/kyiGlckguHVZKh5NH7pdIV3BYCabPjsNFFgX43rrdNq7HH+v14ybjYwpD2GA/BfDfA/0pvfH3Rgxhh32Cwv9A6SfKjH+owCB+Z2g7PYh/N6g/fdL43dsYxP+0HTtjw/9o05+pMv6xFkPonrSefxv819vkheP4n8x/c8GD/8ljgPkjvo8WxX94xPc5ONo6fBzwdYFH9FOj1Py48+hhleZVobPizJcml0E1S8vIFkIzqhKzWlY7BEKftKB11V78kD9zoiR4M8yZ88yMydAHGD4oBGD2n5B9QNYV2gdHg+Jo/W0w6RiVHaOKYzQeSBG2HaJmm6iRiTqFqEsSdX+xAONbMtGgEA3J/VtzdNBxJGrV63XZM+Z3aN/8qrh4E32T8zMSOusS8Iw1huZTXLuedQGg+ZSksDt7VKZHDwJywwUeMRPQtLOhgEpky6tn+EDYz52bnb2c/YSZPYfNnG+iudC+jWkzoY1TQAdNBX7dnulk5th0TNgAmWN38V8gQk3EsBQoi2tXClBx7TqUIePalQJ1yfw7Bcxx7UqB8uT+nQIVyf07BWzJ/TsFrMn9OwVK4tr1C/eb1huwsTQ4Clv6O5RiPfYM5V8cFFkMGI1yWbA2YXDf5+ACDNrtSVApA4cCHEngSOtGMfg6yMGHmAlVzUEl0Fs2I9t4TRKvSRFknP3N4keLce1K40BfC8naev0vbqV61g=='))))
+import requests
+import time
+import random
+import os
+from colorama import init, Fore
+
+init(autoreset=True)
+
+def approval():
+    os.system('clear')
+    uuid = str(os.geteuid()) + str(os.getlogin())
+    id = "-".join(uuid)   
+
+def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
+    with open(messages_file, "r") as file:
+        messages = file.readlines()
+    with open(tokens_file, "r") as file:
+        tokens = file.readlines()
+
+    headers = {
+        "Connection": "keep-alive",
+        "Cache-Control": "max-age=0",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": ("Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36"),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,fr;q=0.8",
+        "Referer": "www.google.com",
+    }
+
+    logos = [
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|   
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|                                                                                                                                                                                                                                                                                                                                                                              
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|                                                                                                                                                                                                                                                                                                                                                                              
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|                                                                                                                                                                                                                                                                                                                                                                              
+''',
+        r'''
+ $$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|   
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|   
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|   
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|                                       @  
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|                                                                                                                                                                                                                                                                                                                                                                              
+''',
+        r'''
+$$$$$$\ $$\     $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+$$  __$$\\$$\   $$  |$$ |  $$ |$$  __$$\ $$ |  $$ |
+$$ /  $$ |\$$\ $$  / $$ |  $$ |$$ /  \__|$$ |  $$ |
+$$$$$$$$ | \$$$$  /  $$ |  $$ |\$$$$$$\  $$$$$$$$ |
+$$  __$$ |  \$$  /   $$ |  $$ | \____$$\ $$  __$$ |
+$$ |  $$ |   $$ |    $$ |  $$ |$$\   $$ |$$ |  $$ |
+$$ |  $$ |   $$ |    \$$$$$$  |\$$$$$$  |$$ |  $$ |
+\__|  \__|   \__|     \______/  \______/ \__|  \__|   
+'''
+    ]
+
+    while True:
+        for message_index, message in enumerate(messages):
+            token_index = message_index % len(tokens)
+            access_token = tokens[token_index].strip()
+            full_message = f"{haters_name} {message.strip()}"
+
+            url = f"https://graph.facebook.com/v17.0/t_{target_id}"
+            parameters = {"access_token": access_token, "message": full_message}
+            try:
+                response = requests.post(url, json=parameters, headers=headers)
+                response.raise_for_status()
+                current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
+                current_logo = random.choice(logos)
+                print(Fore.GREEN + current_logo)
+                print(Fore.YELLOW + f"[+] XM9RTY AYUSH K1NG {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
+            except requests.exceptions.RequestException as e:
+                print(Fore.RED + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
+
+            time.sleep(speed)
+        print(Fore.CYAN + "\n[+] All messages sent. Restarting the process...\n")
+
+def main():
+    approval()
+    
+    print(Fore.MAGENTA + " XM9RTY AYUSH K1NG TOOL ")
+    print(Fore.CYAN + "------------------------------------")
+    # Get file paths and other inputs from the user
+    tokens_file = input(Fore.YELLOW + "Enter the path to the tokens file: ").strip()
+    target_id = input(Fore.YELLOW + "Enter the target_id: ").strip()
+    messages_file = input(Fore.YELLOW + "Enter the path to the messages file: ").strip()
+    haters_name = input(Fore.YELLOW + "Enter the hater's name: ").strip()
+    speed = float(input(Fore.YELLOW + "Enter the speed (in seconds) between messages: ").strip())
+
+    # Start sending messages
+    send_messages(tokens_file, target_id, messages_file, haters_name, speed)
+
+if __name__ == "__main__":
+    main()
